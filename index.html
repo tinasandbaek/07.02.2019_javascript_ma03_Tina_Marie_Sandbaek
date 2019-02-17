@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing page Ma03 javascript1</title>
+  </head>
+  <body>
+    <<h2>Q1 level 1. Html form with JS consolelog</h2>
+    <form novalidate>
+    <section>
+        <label for="firstName">First name:</label>
+        <input type="text" id="firstName" pattern="^[a-zA-Z ]+$" name="firstName">
+    </section>
+    <section>
+        <label for="lastName">Last name:</label>
+        <input type="text" id="lastName" pattern="^[a-zA-Z ]+$" name="lastName">
+    </section>
+    <section>
+        <label for="tel">Telephone number:</label>
+        <input type="tel" id="phoneNumber" pattern="\d{8,12}" name="Telephone number">
+    </section>
+    <section>
+        <label for="emailAddress">Email address:</label>
+        <input type="email" id="email" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$" name="email">
+    </section>
+    <button type="button" id="submit">Send in</button>
+</form>
+<script src="script.js"></script>
+  </body>
+</html>
