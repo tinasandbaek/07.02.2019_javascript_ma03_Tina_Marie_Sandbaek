@@ -1,0 +1,30 @@
+In your own words, describe what JavaScript Code Style is.
+  JavaScript Code Style is a way to rank your code after importance, it allows you to have a clean code and helps you to not have any unused code.
+What is a Regular Expression?
+  it is a sequence of symbols and carracters expressing a pattern or a string to be searched for in a long pice if text.
+What does the .random() method do?
+  It generates a random between 0 and 1.
+What does the .sort() method do?
+  It sorts the elements in a given list.
+What does the .reverse() method do?
+  This one reverses the arrays, sample; 
+      var fruits ["banana", "Mango", "Orange", "Apple"]
+      function reverseFruit(){
+        fruits.reverse();
+        }
+        /*This will react with a buttin written in HTML.Then it will rewerse the order of the fruits*/
+List two examples of bad JavaScript code.
+//#1
+    Var array = [1,2,3,4]
+//#2
+    return isAbled true == true ? true: false
+
+What data types can a JSON object contain?
+  { it has to be curly brackets 
+    the keys must be strings and it must be valid JSON type (Array, boolean, numbers)
+    the values has to be separated by comma
+  }
+What is minifying JavaScript Code?
+  it is to remove neccesary words without changing the code using abbreveation
+What is a global variable?
+  It means that it can be defined anywhere in the JS code.
